@@ -148,6 +148,8 @@ services:
       CONFLUENT_METRICS_TOPIC_REPLICATION: 1
       CONFLUENT_METRICS_ENABLE: 'false'
       PORT: 9021
+    ports:
+      - "9021:9021"
     #networks:
     #  - confluent
   postgres:
