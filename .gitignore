@@ -1,0 +1,5 @@
+.venv
+.python-version
+docker/airflow/config
+docker/airflow/logs
+docker/postgres/postgres_data
