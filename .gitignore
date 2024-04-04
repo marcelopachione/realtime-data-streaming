@@ -1,5 +1,6 @@
 .venv
 .python-version
+poetry.lock
 docker/airflow/config
 docker/airflow/logs
 docker/postgres/postgres_data
